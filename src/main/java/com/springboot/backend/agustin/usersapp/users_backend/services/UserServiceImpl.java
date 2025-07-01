@@ -29,11 +29,13 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
+    @Transactional
     public User save(User user) {
       
     }
 
     @Override
+    @Transactional
     public void deleteById(Long id) {
        
     }
